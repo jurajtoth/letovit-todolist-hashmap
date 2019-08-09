@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TodolistApplication {
+public class ToDoListApplication {
 
 	/**
 	 * Main method that will start-up the application.
@@ -12,7 +12,7 @@ public class TodolistApplication {
 	 * running on it on address http://localhost:8080 
 	 */
 	public static void main(String[] args) {
-		SpringApplication.run(TodolistApplication.class, args);
+		SpringApplication.run(ToDoListApplication.class, args);
 	}
 
 }
